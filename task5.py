@@ -14,5 +14,5 @@ a1 = int(input('Введите число a1: '))
 b1 = int(input('Введите число b1: '))
 
 d = ((a1-a)*(a1-a)+(b1-b)*(b1-b))
-sqr = float(math.sqrt(d))
+sqr = math.sqrt(d)
 print(sqr)
